@@ -1,3 +1,9 @@
+# Script: Ops 301 Class 02 Code Challenge
+# Joshua Phipps
+# 3/14/2023
+# Purpose: Append; Date and Time
+
+
 #!/bin/bash
 
 
