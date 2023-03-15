@@ -1,0 +1,697 @@
+Mar 13 03:21:35 storm systemd[1]: rsyslog.service: Sent signal SIGHUP to main process 652 (rsyslogd) on client request.
+Mar 13 03:21:35 storm systemd[1]: Started Modem Manager.
+Mar 13 03:21:35 storm dbus-daemon[644]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Mar 13 03:21:35 storm systemd[1]: Started Hostname Service.
+Mar 13 03:21:35 storm systemd[1]: logrotate.service: Deactivated successfully.
+Mar 13 03:21:35 storm systemd[1]: Finished Rotate log files.
+Mar 13 03:21:35 storm networkd-dispatcher[650]: No valid path found for iwconfig
+Mar 13 03:21:35 storm networkd-dispatcher[650]: No valid path found for iw
+Mar 13 03:21:35 storm systemd-hostnamed[692]: Hostname set to <storm> (static)
+Mar 13 03:21:35 storm systemd[1]: Started Dispatcher daemon for systemd-networkd.
+Mar 13 03:21:35 storm systemd[1]: Started Disk Manager.
+Mar 13 03:21:35 storm udisksd[658]: Acquired the name org.freedesktop.UDisks2 on the system message bus
+Mar 13 03:21:37 storm systemd[1]: tmp-snap.rootfs_Y9CR9k.mount: Deactivated successfully.
+Mar 13 03:21:37 storm snapd[654]: overlord.go:268: Acquiring state lock file
+Mar 13 03:21:37 storm snapd[654]: overlord.go:273: Acquired state lock file
+Mar 13 03:21:37 storm snapd[654]: daemon.go:247: started snapd/2.58.2 (series 16; classic) ubuntu/22.04 (amd64) linux/5.15.0-60-generic.
+Mar 13 03:21:37 storm kernel: [   13.467592] loop6: detected capacity change from 0 to 8
+Mar 13 03:21:37 storm systemd[1]: tmp-syscheck\x2dmountpoint\x2d705923040.mount: Deactivated successfully.
+Mar 13 03:21:37 storm snapd[654]: daemon.go:340: adjusting startup timeout by 45s (pessimistic estimate of 30s plus 5s per snap)
+Mar 13 03:21:37 storm snapd[654]: backends.go:58: AppArmor status: apparmor is enabled and all features are available
+Mar 13 03:21:37 storm systemd[1]: Started Snap Daemon.
+Mar 13 03:21:37 storm systemd[1]: Starting Wait until snapd is fully seeded...
+Mar 13 03:21:37 storm dbus-daemon[644]: [system] Activating via systemd: service name='org.freedesktop.timedate1' unit='dbus-org.freedesktop.timedate1.service' requested by ':1.12' (uid=0 pid=654 comm="/usr/lib/snapd/snapd " label="unconfined")
+Mar 13 03:21:37 storm systemd[1]: Starting Time & Date Service...
+Mar 13 03:21:37 storm dbus-daemon[644]: [system] Successfully activated service 'org.freedesktop.timedate1'
+Mar 13 03:21:37 storm systemd[1]: Started Time & Date Service.
+Mar 13 03:21:37 storm systemd[1]: Finished Wait until snapd is fully seeded.
+Mar 13 03:21:37 storm systemd[1]: Starting Apply the settings specified in cloud-config...
+Mar 13 03:21:37 storm systemd[1]: Condition check resulted in Auto import assertions from block devices being skipped.
+Mar 13 03:21:38 storm ModemManager[694]: <info>  [base-manager] couldn't check support for device '/sys/devices/pci0000:00/0000:00:03.0': not supported by any plugin
+Mar 13 03:21:38 storm lxd.activate[653]: => Starting LXD activation
+Mar 13 03:21:38 storm lxd.activate[653]: ==> Loading snap configuration
+Mar 13 03:21:38 storm lxd.activate[653]: ==> Checking for socket activation support
+Mar 13 03:21:38 storm lxd.activate[653]: ==> Setting LXD socket ownership
+Mar 13 03:21:38 storm lxd.activate[653]: ==> Setting LXD user socket ownership
+Mar 13 03:21:38 storm lxd.activate[653]: ==> LXD never started on this system, no need to start it now
+Mar 13 03:21:38 storm systemd[1]: snap.lxd.activate.service: Deactivated successfully.
+Mar 13 03:21:38 storm systemd[1]: Finished Service for snap application lxd.activate.
+Mar 13 03:21:38 storm systemd[1]: snap.lxd.activate.service: Consumed 1.224s CPU time.
+Mar 13 03:21:38 storm cloud-init[831]: Cloud-init v. 22.4.2-0ubuntu0~22.04.1 running 'modules:config' at Mon, 13 Mar 2023 03:21:38 +0000. Up 14.31 seconds.
+Mar 13 03:21:38 storm systemd[1]: Finished Apply the settings specified in cloud-config.
+Mar 13 03:21:38 storm systemd[1]: Condition check resulted in Ubuntu Advantage GCP Auto Attach Daemon being skipped.
+Mar 13 03:21:38 storm systemd[1]: Reached target Multi-User System.
+Mar 13 03:21:38 storm systemd[1]: Reached target Graphical Interface.
+Mar 13 03:21:38 storm systemd[1]: Starting Execute cloud user/final scripts...
+Mar 13 03:21:38 storm systemd[1]: Starting Record Runlevel Change in UTMP...
+Mar 13 03:21:38 storm systemd[1]: systemd-update-utmp-runlevel.service: Deactivated successfully.
+Mar 13 03:21:38 storm systemd[1]: Finished Record Runlevel Change in UTMP.
+Mar 13 03:21:38 storm cloud-init[837]: Cloud-init v. 22.4.2-0ubuntu0~22.04.1 running 'modules:final' at Mon, 13 Mar 2023 03:21:38 +0000. Up 14.70 seconds.
+Mar 13 03:21:38 storm cloud-init[837]: Cloud-init v. 22.4.2-0ubuntu0~22.04.1 finished at Mon, 13 Mar 2023 03:21:38 +0000. Datasource DataSourceNone.  Up 14.82 seconds
+Mar 13 03:21:38 storm cloud-init[837]: 2023-03-13 03:21:38,894 - cc_final_message.py[WARNING]: Used fallback datasource
+Mar 13 03:21:38 storm systemd[1]: Finished Execute cloud user/final scripts.
+Mar 13 03:21:38 storm systemd[1]: Reached target Cloud-init target.
+Mar 13 03:21:38 storm systemd[1]: Startup finished in 3.334s (kernel) + 11.546s (userspace) = 14.881s.
+Mar 13 03:21:38 storm systemd[1]: dmesg.service: Deactivated successfully.
+Mar 13 03:21:59 storm systemd[1]: systemd-fsckd.service: Deactivated successfully.
+Mar 13 03:22:05 storm systemd-timesyncd[543]: Initial synchronization to time server [2620:2d:4000:1::41]:123 (ntp.ubuntu.com).
+Mar 13 03:22:05 storm systemd-resolved[630]: Clock change detected. Flushing caches.
+Mar 13 03:22:06 storm systemd[1]: systemd-hostnamed.service: Deactivated successfully.
+Mar 13 03:22:10 storm systemd[1]: Created slice User Slice of UID 1000.
+Mar 13 03:22:10 storm systemd[1]: Starting User Runtime Directory /run/user/1000...
+Mar 13 03:22:10 storm systemd[1]: Finished User Runtime Directory /run/user/1000.
+Mar 13 03:22:10 storm systemd[1]: Starting User Manager for UID 1000...
+Mar 13 03:22:10 storm systemd[865]: Queued start job for default target Main User Target.
+Mar 13 03:22:10 storm systemd[865]: Created slice User Application Slice.
+Mar 13 03:22:10 storm systemd[865]: Reached target Paths.
+Mar 13 03:22:10 storm systemd[865]: Reached target Timers.
+Mar 13 03:22:10 storm systemd[865]: Starting D-Bus User Message Bus Socket...
+Mar 13 03:22:10 storm systemd[865]: Listening on GnuPG network certificate management daemon.
+Mar 13 03:22:10 storm systemd[865]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Mar 13 03:22:10 storm systemd[865]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Mar 13 03:22:10 storm systemd[865]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Mar 13 03:22:10 storm systemd[865]: Listening on GnuPG cryptographic agent and passphrase cache.
+Mar 13 03:22:10 storm systemd[865]: Listening on debconf communication socket.
+Mar 13 03:22:10 storm systemd[865]: Listening on REST API socket for snapd user session agent.
+Mar 13 03:22:10 storm systemd[865]: Listening on D-Bus User Message Bus Socket.
+Mar 13 03:22:10 storm systemd[865]: Reached target Sockets.
+Mar 13 03:22:10 storm systemd[865]: Reached target Basic System.
+Mar 13 03:22:10 storm systemd[1]: Started User Manager for UID 1000.
+Mar 13 03:22:10 storm systemd[1]: Started Session 1 of User jphip.
+Mar 13 03:22:10 storm systemd[865]: Reached target Main User Target.
+Mar 13 03:22:10 storm systemd[865]: Startup finished in 130ms.
+Mar 13 03:22:11 storm systemd[1]: systemd-timedated.service: Deactivated successfully.
+Mar 13 03:22:18 storm systemd[1]: Starting Online ext4 Metadata Check for All Filesystems...
+Mar 13 03:22:18 storm systemd[1]: e2scrub_all.service: Deactivated successfully.
+Mar 13 03:22:18 storm systemd[1]: Finished Online ext4 Metadata Check for All Filesystems.
+Mar 13 03:23:11 storm vsce-sign: Package file size:  80660
+Mar 13 03:23:11 storm vsce-sign: Signature archive file size:  9554
+Mar 13 03:23:12 storm vsce-sign: Package file size:  147940
+Mar 13 03:23:12 storm vsce-sign: Package file size:  11692450
+Mar 13 03:23:12 storm vsce-sign: Package file size:  7956952
+Mar 13 03:23:12 storm vsce-sign: Package file size:  157684
+Mar 13 03:23:12 storm vsce-sign: Manifest file size:  1266
+Mar 13 03:23:12 storm vsce-sign: Signature archive file size:  10219
+Mar 13 03:23:12 storm vsce-sign: Signature archive file size:  17352
+Mar 13 03:23:12 storm vsce-sign: Package file size:  15506517
+Mar 13 03:23:12 storm vsce-sign: Signature archive file size:  10628
+Mar 13 03:23:12 storm vsce-sign: Signature archive file size:  11100
+Mar 13 03:23:12 storm vsce-sign: Signature archive file size:  126377
+Mar 13 03:23:12 storm vsce-sign: Signature file size:  11977
+Mar 13 03:23:12 storm vsce-sign: Manifest file size:  24441
+Mar 13 03:23:12 storm vsce-sign: Manifest file size:  6076
+Mar 13 03:23:12 storm vsce-sign: Manifest file size:  532190
+Mar 13 03:23:12 storm vsce-sign: Manifest file size:  2789
+Mar 13 03:23:12 storm vsce-sign: Manifest file size:  3690
+Mar 13 03:23:12 storm vsce-sign: Signature file size:  12018
+Mar 13 03:23:12 storm vsce-sign: Signature file size:  11978
+Mar 13 03:23:12 storm vsce-sign: Signature file size:  11986
+Mar 13 03:23:12 storm vsce-sign: Signature file size:  12019
+Mar 13 03:23:12 storm vsce-sign: Signature file size:  11975
+Mar 13 03:23:13 storm vsce-sign: ManifestPackageIntegrityPolicy succeeded.
+Mar 13 03:23:13 storm vsce-sign: message repeated 4 times: [ ManifestPackageIntegrityPolicy succeeded.]
+Mar 13 03:23:14 storm vsce-sign: SignatureIntegrityPolicy for primary signature succeeded.
+Mar 13 03:23:14 storm vsce-sign: ManifestPackageIntegrityPolicy succeeded.
+Mar 13 03:23:14 storm vsce-sign: SignatureIntegrityPolicy for primary signature succeeded.
+Mar 13 03:23:14 storm vsce-sign: message repeated 3 times: [ SignatureIntegrityPolicy for primary signature succeeded.]
+Mar 13 03:23:14 storm vsce-sign: SignatureValidityPolicy for primary signature succeeded.
+Mar 13 03:23:14 storm vsce-sign: SignatureValidityPolicy for primary signature succeeded.
+Mar 13 03:23:14 storm vsce-sign: SignatureIntegrityPolicy for primary signature succeeded.
+Mar 13 03:23:14 storm vsce-sign: SignatureValidityPolicy for primary signature succeeded.
+Mar 13 03:23:14 storm vsce-sign: SignatureIntegrityPolicy for timestamp signature succeeded.
+Mar 13 03:23:15 storm vsce-sign: SignatureValidityPolicy for primary signature succeeded.
+Mar 13 03:23:15 storm vsce-sign: SignatureValidityPolicy for primary signature succeeded.
+Mar 13 03:23:15 storm vsce-sign: SignatureIntegrityPolicy for timestamp signature succeeded.
+Mar 13 03:23:15 storm vsce-sign: SignatureValidityPolicy for timestamp signature succeeded.
+Mar 13 03:23:15 storm vsce-sign: SignatureIntegrityPolicy for timestamp signature succeeded.
+Mar 13 03:23:15 storm vsce-sign: X.509 certificate chain validation will use the fallback certificate bundle for timestamping.
+Mar 13 03:23:15 storm vsce-sign: SignatureValidityPolicy for timestamp signature succeeded.
+Mar 13 03:23:15 storm vsce-sign: SignatureValidityPolicy for primary signature succeeded.
+Mar 13 03:23:15 storm vsce-sign: SignatureIntegrityPolicy for timestamp signature succeeded.
+Mar 13 03:23:15 storm vsce-sign: SignatureValidityPolicy for timestamp signature succeeded.
+Mar 13 03:23:15 storm vsce-sign: SignatureIntegrityPolicy for timestamp signature succeeded.
+Mar 13 03:23:15 storm vsce-sign: X.509 certificate chain validation will use the fallback certificate bundle for timestamping.
+Mar 13 03:23:15 storm vsce-sign: X.509 certificate chain validation will use the fallback certificate bundle for timestamping.
+Mar 13 03:23:15 storm vsce-sign: SignatureValidityPolicy for timestamp signature succeeded.
+Mar 13 03:23:15 storm vsce-sign: SignatureValidityPolicy for timestamp signature succeeded.
+Mar 13 03:23:15 storm vsce-sign: X.509 certificate chain validation will use the fallback certificate bundle for timestamping.
+Mar 13 03:23:15 storm vsce-sign: SignatureIntegrityPolicy for timestamp signature succeeded.
+Mar 13 03:23:15 storm vsce-sign: X.509 certificate chain validation will use the fallback certificate bundle for timestamping.
+Mar 13 03:23:15 storm vsce-sign: SignatureValidityPolicy for timestamp signature succeeded.
+Mar 13 03:23:15 storm vsce-sign: X.509 certificate chain validation will use the fallback certificate bundle for timestamping.
+Mar 13 03:23:19 storm vsce-sign: SignatureTrustPolicy for timestamp signature succeeded.
+Mar 13 03:23:19 storm vsce-sign: X.509 certificate chain validation will use the fallback certificate bundle for code signing.
+Mar 13 03:23:19 storm vsce-sign: SignatureTrustPolicy for timestamp signature succeeded.
+Mar 13 03:23:19 storm vsce-sign: SignatureTrustPolicy for timestamp signature succeeded.
+Mar 13 03:23:19 storm vsce-sign: X.509 certificate chain validation will use the fallback certificate bundle for code signing.
+Mar 13 03:23:19 storm vsce-sign: X.509 certificate chain validation will use the fallback certificate bundle for code signing.
+Mar 13 03:23:19 storm vsce-sign: SignatureTrustPolicy for timestamp signature succeeded.
+Mar 13 03:23:19 storm vsce-sign: X.509 certificate chain validation will use the fallback certificate bundle for code signing.
+Mar 13 03:23:19 storm vsce-sign: SignatureTrustPolicy for timestamp signature succeeded.
+Mar 13 03:23:19 storm vsce-sign: X.509 certificate chain validation will use the fallback certificate bundle for code signing.
+Mar 13 03:23:20 storm vsce-sign: SignatureTrustPolicy for timestamp signature succeeded.
+Mar 13 03:23:20 storm vsce-sign: X.509 certificate chain validation will use the fallback certificate bundle for code signing.
+Mar 13 03:23:20 storm vsce-sign: SignatureTrustPolicy for primary signature succeeded.
+Mar 13 03:23:20 storm vsce-sign: Primary signature type:  repository primary signature
+Mar 13 03:23:20 storm vsce-sign: Primary signature status:  OK
+Mar 13 03:23:20 storm vsce-sign: Timestamp signature status:  OK
+Mar 13 03:23:20 storm vsce-sign: Exit code:  Success
+Mar 13 03:23:20 storm vsce-sign: SignatureTrustPolicy for primary signature succeeded.
+Mar 13 03:23:20 storm vsce-sign: SignatureTrustPolicy for primary signature succeeded.
+Mar 13 03:23:20 storm vsce-sign: Primary signature type:  repository primary signature
+Mar 13 03:23:20 storm vsce-sign: Primary signature status:  OK
+Mar 13 03:23:20 storm vsce-sign: Timestamp signature status:  OK
+Mar 13 03:23:20 storm vsce-sign: Exit code:  Success
+Mar 13 03:23:20 storm vsce-sign: Primary signature type:  repository primary signature
+Mar 13 03:23:20 storm vsce-sign: Primary signature status:  OK
+Mar 13 03:23:20 storm vsce-sign: Timestamp signature status:  OK
+Mar 13 03:23:20 storm vsce-sign: Exit code:  Success
+Mar 13 03:23:20 storm vsce-sign: SignatureTrustPolicy for primary signature succeeded.
+Mar 13 03:23:20 storm vsce-sign: Primary signature type:  repository primary signature
+Mar 13 03:23:20 storm vsce-sign: Primary signature status:  OK
+Mar 13 03:23:20 storm vsce-sign: Timestamp signature status:  OK
+Mar 13 03:23:20 storm vsce-sign: Exit code:  Success
+Mar 13 03:23:21 storm vsce-sign: SignatureTrustPolicy for primary signature succeeded.
+Mar 13 03:23:21 storm vsce-sign: Primary signature type:  repository primary signature
+Mar 13 03:23:21 storm vsce-sign: Primary signature status:  OK
+Mar 13 03:23:21 storm vsce-sign: Timestamp signature status:  OK
+Mar 13 03:23:21 storm vsce-sign: Exit code:  Success
+Mar 13 03:23:21 storm vsce-sign: SignatureTrustPolicy for primary signature succeeded.
+Mar 13 03:23:21 storm vsce-sign: Primary signature type:  repository primary signature
+Mar 13 03:23:21 storm vsce-sign: Primary signature status:  OK
+Mar 13 03:23:21 storm vsce-sign: Timestamp signature status:  OK
+Mar 13 03:23:21 storm vsce-sign: Exit code:  Success
+Mar 13 03:23:28 storm vsce-sign: Package file size:  9819301
+Mar 13 03:23:28 storm vsce-sign: Signature archive file size:  235304
+Mar 13 03:23:28 storm vsce-sign: Manifest file size:  909164
+Mar 13 03:23:28 storm vsce-sign: Signature file size:  11975
+Mar 13 03:23:28 storm vsce-sign: ManifestPackageIntegrityPolicy succeeded.
+Mar 13 03:23:28 storm vsce-sign: SignatureIntegrityPolicy for primary signature succeeded.
+Mar 13 03:23:29 storm vsce-sign: SignatureValidityPolicy for primary signature succeeded.
+Mar 13 03:23:29 storm vsce-sign: SignatureIntegrityPolicy for timestamp signature succeeded.
+Mar 13 03:23:29 storm vsce-sign: SignatureValidityPolicy for timestamp signature succeeded.
+Mar 13 03:23:29 storm vsce-sign: X.509 certificate chain validation will use the fallback certificate bundle for timestamping.
+Mar 13 03:23:29 storm vsce-sign: SignatureTrustPolicy for timestamp signature succeeded.
+Mar 13 03:23:29 storm vsce-sign: X.509 certificate chain validation will use the fallback certificate bundle for code signing.
+Mar 13 03:23:29 storm vsce-sign: SignatureTrustPolicy for primary signature succeeded.
+Mar 13 03:23:29 storm vsce-sign: Primary signature type:  repository primary signature
+Mar 13 03:23:29 storm vsce-sign: Primary signature status:  OK
+Mar 13 03:23:29 storm vsce-sign: Timestamp signature status:  OK
+Mar 13 03:23:29 storm vsce-sign: Exit code:  Success
+Mar 13 03:26:30 storm systemd[1]: Starting Download data for packages that failed at package install time...
+Mar 13 03:26:31 storm systemd[1]: update-notifier-download.service: Deactivated successfully.
+Mar 13 03:26:31 storm systemd[1]: Finished Download data for packages that failed at package install time.
+Mar 13 03:26:41 storm dbus-daemon[644]: [system] Activating via systemd: service name='org.freedesktop.timedate1' unit='dbus-org.freedesktop.timedate1.service' requested by ':1.12' (uid=0 pid=654 comm="/usr/lib/snapd/snapd " label="unconfined")
+Mar 13 03:26:41 storm systemd[1]: Starting Time & Date Service...
+Mar 13 03:26:41 storm dbus-daemon[644]: [system] Successfully activated service 'org.freedesktop.timedate1'
+Mar 13 03:26:41 storm systemd[1]: Started Time & Date Service.
+Mar 13 03:26:42 storm snapd[654]: storehelpers.go:769: cannot refresh: snap has no updates available: "lxd", "snapd"
+Mar 13 03:26:47 storm systemd[1]: Reloading.
+Mar 13 03:26:47 storm systemd[1]: Mounting Mount unit for core20, revision 1828...
+Mar 13 03:26:47 storm kernel: [  322.497467] loop6: detected capacity change from 0 to 129608
+Mar 13 03:26:47 storm systemd[1]: Mounted Mount unit for core20, revision 1828.
+Mar 13 03:26:48 storm systemd[1]: snap-core20-1587.mount: Deactivated successfully.
+Mar 13 03:26:48 storm systemd[1]: Reloading.
+Mar 13 03:26:49 storm snapd[654]: storehelpers.go:769: cannot refresh snap "core20": snap has no updates available
+Mar 13 03:27:11 storm systemd[1]: systemd-timedated.service: Deactivated successfully.
+Mar 13 03:31:36 storm rsyslogd: [origin software="rsyslogd" swVersion="8.2112.0" x-pid="652" x-info="https://www.rsyslog.com"] rsyslogd was HUPed
+Mar 13 03:36:30 storm systemd[1]: Starting Cleanup of Temporary Directories...
+Mar 13 03:36:31 storm systemd[1]: systemd-tmpfiles-clean.service: Deactivated successfully.
+Mar 13 03:36:31 storm systemd[1]: Finished Cleanup of Temporary Directories.
+Mar 13 03:38:30 storm systemd[1]: Starting Daily apt upgrade and clean activities...
+Mar 13 03:38:36 storm dbus-daemon[644]: [system] Activating via systemd: service name='org.freedesktop.PackageKit' unit='packagekit.service' requested by ':1.20' (uid=0 pid=1945 comm="/usr/bin/gdbus call --system --dest org.freedeskto" label="unconfined")
+Mar 13 03:38:36 storm systemd[1]: Starting PackageKit Daemon...
+Mar 13 03:38:36 storm PackageKit: daemon start
+Mar 13 03:38:36 storm dbus-daemon[644]: [system] Successfully activated service 'org.freedesktop.PackageKit'
+Mar 13 03:38:36 storm systemd[1]: Started PackageKit Daemon.
+Mar 13 03:39:21 storm systemd[1]: apt-daily-upgrade.service: Deactivated successfully.
+Mar 13 03:39:21 storm systemd[1]: Finished Daily apt upgrade and clean activities.
+Mar 13 03:39:21 storm systemd[1]: apt-daily-upgrade.service: Consumed 36.077s CPU time.
+Mar 13 03:39:36 storm systemd[1]: Started Session 3 of User jphip.
+Mar 13 03:40:30 storm systemd[1]: Started Session 4 of User jphip.
+Mar 13 03:40:57 storm systemd[1]: Started Session 5 of User jphip.
+Mar 13 03:49:30 storm systemd[1]: session-4.scope: Deactivated successfully.
+Mar 13 03:49:58 storm systemd[1]: session-5.scope: Deactivated successfully.
+Mar 13 03:51:37 storm systemd[1]: session-3.scope: Deactivated successfully.
+Mar 13 03:53:47 storm systemd[1]: session-1.scope: Deactivated successfully.
+Mar 13 03:53:47 storm systemd[1]: session-1.scope: Consumed 1min 22.390s CPU time.
+Mar 13 03:53:57 storm systemd[1]: Stopping User Manager for UID 1000...
+Mar 13 03:53:57 storm systemd[865]: Stopped target Main User Target.
+Mar 13 03:53:57 storm systemd[865]: Stopped target Basic System.
+Mar 13 03:53:57 storm systemd[865]: Stopped target Paths.
+Mar 13 03:53:57 storm systemd[865]: Stopped target Sockets.
+Mar 13 03:53:57 storm systemd[865]: Stopped target Timers.
+Mar 13 03:53:57 storm systemd[865]: Closed D-Bus User Message Bus Socket.
+Mar 13 03:53:57 storm systemd[865]: Closed GnuPG network certificate management daemon.
+Mar 13 03:53:57 storm systemd[865]: Closed GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Mar 13 03:53:57 storm systemd[865]: Closed GnuPG cryptographic agent and passphrase cache (restricted).
+Mar 13 03:53:57 storm systemd[865]: Closed GnuPG cryptographic agent (ssh-agent emulation).
+Mar 13 03:53:57 storm systemd[865]: Closed GnuPG cryptographic agent and passphrase cache.
+Mar 13 03:53:57 storm systemd[865]: Closed debconf communication socket.
+Mar 13 03:53:57 storm systemd[865]: Closed REST API socket for snapd user session agent.
+Mar 13 03:53:58 storm systemd[865]: Removed slice User Application Slice.
+Mar 13 03:53:58 storm systemd[865]: Reached target Shutdown.
+Mar 13 03:53:58 storm systemd[865]: Finished Exit the Session.
+Mar 13 03:53:58 storm systemd[865]: Reached target Exit the Session.
+Mar 13 03:53:58 storm systemd[1]: user@1000.service: Deactivated successfully.
+Mar 13 03:53:58 storm systemd[1]: Stopped User Manager for UID 1000.
+Mar 13 03:53:58 storm systemd[1]: Stopping User Runtime Directory /run/user/1000...
+Mar 13 03:53:58 storm systemd[1]: run-user-1000.mount: Deactivated successfully.
+Mar 13 03:53:58 storm systemd[1]: user-runtime-dir@1000.service: Deactivated successfully.
+Mar 13 03:53:58 storm systemd[1]: Stopped User Runtime Directory /run/user/1000.
+Mar 13 03:53:58 storm systemd[1]: Removed slice User Slice of UID 1000.
+Mar 13 03:53:58 storm systemd[1]: user-1000.slice: Consumed 1min 24.418s CPU time.
+Mar 13 04:04:16 storm systemd[1]: Created slice User Slice of UID 1000.
+Mar 13 04:04:16 storm systemd[1]: Starting User Runtime Directory /run/user/1000...
+Mar 13 04:04:16 storm systemd[1]: Finished User Runtime Directory /run/user/1000.
+Mar 13 04:04:16 storm systemd[1]: Starting User Manager for UID 1000...
+Mar 13 04:04:16 storm systemd[13698]: Queued start job for default target Main User Target.
+Mar 13 04:04:16 storm systemd[13698]: Created slice User Application Slice.
+Mar 13 04:04:16 storm systemd[13698]: Reached target Paths.
+Mar 13 04:04:16 storm systemd[13698]: Reached target Timers.
+Mar 13 04:04:16 storm systemd[13698]: Starting D-Bus User Message Bus Socket...
+Mar 13 04:04:16 storm systemd[13698]: Listening on GnuPG network certificate management daemon.
+Mar 13 04:04:16 storm systemd[13698]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Mar 13 04:04:16 storm systemd[13698]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Mar 13 04:04:16 storm systemd[13698]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Mar 13 04:04:16 storm systemd[13698]: Listening on GnuPG cryptographic agent and passphrase cache.
+Mar 13 04:04:16 storm systemd[13698]: Listening on debconf communication socket.
+Mar 13 04:04:16 storm systemd[13698]: Listening on REST API socket for snapd user session agent.
+Mar 13 04:04:16 storm systemd[13698]: Listening on D-Bus User Message Bus Socket.
+Mar 13 04:04:16 storm systemd[13698]: Reached target Sockets.
+Mar 13 04:04:16 storm systemd[13698]: Reached target Basic System.
+Mar 13 04:04:16 storm systemd[1]: Started User Manager for UID 1000.
+Mar 13 04:04:16 storm systemd[1]: Started Session 6 of User jphip.
+Mar 13 04:04:16 storm systemd[13698]: Reached target Main User Target.
+Mar 13 04:04:16 storm systemd[13698]: Startup finished in 108ms.
+Mar 13 04:07:21 storm systemd[1]: Starting Ubuntu Advantage Timer for running repeated jobs...
+Mar 13 04:07:21 storm systemd[1]: ua-timer.service: Deactivated successfully.
+Mar 13 04:07:21 storm systemd[1]: Finished Ubuntu Advantage Timer for running repeated jobs.
+Mar 13 04:17:01 storm CRON[14092]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 13 04:31:22 storm systemd[1]: Starting Discard unused blocks on filesystems from /etc/fstab...
+Mar 13 04:31:22 storm systemd[1]: fstrim.service: Deactivated successfully.
+Mar 13 04:31:22 storm systemd[1]: Finished Discard unused blocks on filesystems from /etc/fstab.
+Mar 13 04:36:41 storm systemd[1]: session-6.scope: Deactivated successfully.
+Mar 13 04:36:41 storm systemd[1]: session-6.scope: Consumed 19.193s CPU time.
+Mar 13 04:36:51 storm systemd[1]: Stopping User Manager for UID 1000...
+Mar 13 04:36:51 storm systemd[13698]: Stopped target Main User Target.
+Mar 13 04:36:51 storm systemd[13698]: Stopped target Basic System.
+Mar 13 04:36:51 storm systemd[13698]: Stopped target Paths.
+Mar 13 04:36:51 storm systemd[13698]: Stopped target Sockets.
+Mar 13 04:36:51 storm systemd[13698]: Stopped target Timers.
+Mar 13 04:36:51 storm systemd[13698]: Closed D-Bus User Message Bus Socket.
+Mar 13 04:36:51 storm systemd[13698]: Closed GnuPG network certificate management daemon.
+Mar 13 04:36:51 storm systemd[13698]: Closed GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Mar 13 04:36:51 storm systemd[13698]: Closed GnuPG cryptographic agent and passphrase cache (restricted).
+Mar 13 04:36:51 storm systemd[13698]: Closed GnuPG cryptographic agent (ssh-agent emulation).
+Mar 13 04:36:51 storm systemd[13698]: Closed GnuPG cryptographic agent and passphrase cache.
+Mar 13 04:36:51 storm systemd[13698]: Closed debconf communication socket.
+Mar 13 04:36:51 storm systemd[13698]: Closed REST API socket for snapd user session agent.
+Mar 13 04:36:51 storm systemd[13698]: Removed slice User Application Slice.
+Mar 13 04:36:51 storm systemd[13698]: Reached target Shutdown.
+Mar 13 04:36:51 storm systemd[13698]: Finished Exit the Session.
+Mar 13 04:36:51 storm systemd[13698]: Reached target Exit the Session.
+Mar 13 04:36:51 storm systemd[1]: user@1000.service: Deactivated successfully.
+Mar 13 04:36:51 storm systemd[1]: Stopped User Manager for UID 1000.
+Mar 13 04:36:51 storm systemd[1]: Stopping User Runtime Directory /run/user/1000...
+Mar 13 04:36:51 storm systemd[1]: run-user-1000.mount: Deactivated successfully.
+Mar 13 04:36:51 storm systemd[1]: user-runtime-dir@1000.service: Deactivated successfully.
+Mar 13 04:36:51 storm systemd[1]: Stopped User Runtime Directory /run/user/1000.
+Mar 13 04:36:51 storm systemd[1]: Removed slice User Slice of UID 1000.
+Mar 13 04:36:51 storm systemd[1]: user-1000.slice: Consumed 19.333s CPU time.
+Mar 13 04:57:30 storm systemd[1]: Starting Refresh fwupd metadata and update motd...
+Mar 13 04:57:31 storm dbus-daemon[644]: [system] Activating via systemd: service name='org.freedesktop.fwupd' unit='fwupd.service' requested by ':1.47' (uid=113 pid=14123 comm="/usr/bin/fwupdmgr refresh " label="unconfined")
+Mar 13 04:57:31 storm systemd[1]: Starting Firmware update daemon...
+Mar 13 04:57:31 storm dbus-daemon[644]: [system] Activating via systemd: service name='org.freedesktop.UPower' unit='upower.service' requested by ':1.48' (uid=0 pid=14127 comm="/usr/libexec/fwupd/fwupd " label="unconfined")
+Mar 13 04:57:31 storm systemd[1]: Starting Daemon for power management...
+Mar 13 04:57:31 storm dbus-daemon[644]: [system] Successfully activated service 'org.freedesktop.UPower'
+Mar 13 04:57:31 storm systemd[1]: Started Daemon for power management.
+Mar 13 04:57:31 storm dbus-daemon[644]: [system] Successfully activated service 'org.freedesktop.fwupd'
+Mar 13 04:57:31 storm systemd[1]: Started Firmware update daemon.
+Mar 13 04:57:31 storm fwupdmgr[14123]: Updating lvfs
+Mar 13 04:57:31 storm fwupdmgr[14123]: Downloading…: 0%
+Mar 13 04:57:31 storm fwupdmgr[14123]: Downloading…: 50%
+Mar 13 04:57:31 storm fwupdmgr[14123]: Downloading…: 100%
+Mar 13 04:57:31 storm fwupdmgr[14123]: Idle…: 100%
+Mar 13 04:57:31 storm fwupdmgr[14123]: Downloading…: 100%
+Mar 13 04:57:32 storm fwupdmgr[14123]: Downloading…: 0%
+Mar 13 04:57:32 storm fwupdmgr[14123]: Downloading…: 1%
+Mar 13 04:57:32 storm fwupdmgr[14123]: Downloading…: 3%
+Mar 13 04:57:32 storm fwupdmgr[14123]: Downloading…: 5%
+Mar 13 04:57:32 storm fwupdmgr[14123]: Downloading…: 7%
+Mar 13 04:57:32 storm fwupdmgr[14123]: Downloading…: 9%
+Mar 13 04:57:32 storm fwupdmgr[14123]: Downloading…: 11%
+Mar 13 04:57:32 storm fwupdmgr[14123]: Downloading…: 13%
+Mar 13 04:57:32 storm fwupdmgr[14123]: Downloading…: 15%
+Mar 13 04:57:32 storm fwupdmgr[14123]: Downloading…: 18%
+Mar 13 04:57:32 storm fwupdmgr[14123]: Downloading…: 20%
+Mar 13 04:57:32 storm fwupdmgr[14123]: Downloading…: 22%
+Mar 13 04:57:32 storm fwupdmgr[14123]: Downloading…: 24%
+Mar 13 04:57:32 storm fwupdmgr[14123]: Downloading…: 26%
+Mar 13 04:57:32 storm fwupdmgr[14123]: Downloading…: 28%
+Mar 13 04:57:32 storm fwupdmgr[14123]: Downloading…: 30%
+Mar 13 04:57:32 storm fwupdmgr[14123]: Downloading…: 32%
+Mar 13 04:57:32 storm fwupdmgr[14123]: Downloading…: 34%
+Mar 13 04:57:32 storm fwupdmgr[14123]: Downloading…: 40%
+Mar 13 04:57:32 storm fwupdmgr[14123]: Downloading…: 42%
+Mar 13 04:57:32 storm fwupdmgr[14123]: Downloading…: 46%
+Mar 13 04:57:32 storm fwupdmgr[14123]: Downloading…: 49%
+Mar 13 04:57:32 storm fwupdmgr[14123]: Downloading…: 57%
+Mar 13 04:57:32 storm fwupdmgr[14123]: Downloading…: 67%
+Mar 13 04:57:32 storm fwupdmgr[14123]: Downloading…: 69%
+Mar 13 04:57:32 storm fwupdmgr[14123]: Downloading…: 73%
+Mar 13 04:57:32 storm fwupdmgr[14123]: Downloading…: 97%
+Mar 13 04:57:32 storm fwupdmgr[14123]: Downloading…: 100%
+Mar 13 04:57:32 storm fwupdmgr[14123]: Idle…: 100%
+Mar 13 04:57:32 storm fwupdmgr[14123]: Successfully downloaded new metadata: 0 local devices supported
+Mar 13 04:57:32 storm systemd[1]: fwupd-refresh.service: Deactivated successfully.
+Mar 13 04:57:32 storm systemd[1]: Finished Refresh fwupd metadata and update motd.
+Mar 13 05:17:01 storm CRON[14173]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 13 06:17:01 storm CRON[14188]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 13 06:25:01 storm CRON[14193]: (root) CMD (test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily ))
+Mar 13 06:47:05 storm systemd[1]: Starting Daily apt upgrade and clean activities...
+Mar 13 06:47:06 storm systemd[1]: apt-daily-upgrade.service: Deactivated successfully.
+Mar 13 06:47:06 storm systemd[1]: Finished Daily apt upgrade and clean activities.
+Mar 13 06:57:33 storm systemd[1]: fwupd.service: Deactivated successfully.
+Mar 13 06:57:33 storm systemd[1]: fwupd.service: Consumed 1.263s CPU time.
+Mar 13 07:17:01 storm CRON[14276]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 13 07:36:30 storm systemd[1]: Starting Message of the Day...
+Mar 13 07:36:32 storm 50-motd-news[14310]:  * Strictly confined Kubernetes makes edge and IoT secure. Learn how MicroK8s
+Mar 13 07:36:32 storm 50-motd-news[14310]:    just raised the bar for easy, resilient and secure K8s cluster deployment.
+Mar 13 07:36:32 storm 50-motd-news[14310]:    https://ubuntu.com/engage/secure-kubernetes-at-the-edge
+Mar 13 07:36:32 storm systemd[1]: motd-news.service: Deactivated successfully.
+Mar 13 07:36:32 storm systemd[1]: Finished Message of the Day.
+Mar 13 08:17:01 storm CRON[14326]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 13 08:53:05 storm systemd[1]: Starting Daily man-db regeneration...
+Mar 13 08:53:06 storm systemd[1]: man-db.service: Deactivated successfully.
+Mar 13 08:53:06 storm systemd[1]: Finished Daily man-db regeneration.
+Mar 13 09:17:01 storm CRON[14349]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 13 09:41:40 storm snapd[654]: storehelpers.go:769: cannot refresh: snap has no updates available: "core20", "lxd", "snapd"
+Mar 13 09:41:40 storm snapd[654]: autorefresh.go:551: auto-refresh: all snaps are up-to-date
+Mar 13 10:17:01 storm CRON[14370]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 13 10:37:30 storm systemd[1]: Starting Ubuntu Advantage Timer for running repeated jobs...
+Mar 13 10:37:31 storm systemd[1]: ua-timer.service: Deactivated successfully.
+Mar 13 10:37:31 storm systemd[1]: Finished Ubuntu Advantage Timer for running repeated jobs.
+Mar 13 11:17:01 storm CRON[14394]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 13 12:13:30 storm systemd[1]: Starting Daily apt download activities...
+Mar 13 12:13:52 storm systemd[1]: apt-daily.service: Deactivated successfully.
+Mar 13 12:13:52 storm systemd[1]: Finished Daily apt download activities.
+Mar 13 12:13:52 storm systemd[1]: apt-daily.service: Consumed 15.792s CPU time.
+Mar 13 12:17:01 storm CRON[14773]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 13 13:17:01 storm CRON[14787]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 13 14:17:01 storm CRON[14802]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 13 15:17:01 storm CRON[14818]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 13 16:17:01 storm CRON[14838]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 13 16:41:03 storm systemd[1]: Starting Refresh fwupd metadata and update motd...
+Mar 13 16:41:03 storm dbus-daemon[644]: [system] Activating via systemd: service name='org.freedesktop.fwupd' unit='fwupd.service' requested by ':1.52' (uid=113 pid=14848 comm="/usr/bin/fwupdmgr refresh " label="unconfined")
+Mar 13 16:41:03 storm systemd[1]: Starting Firmware update daemon...
+Mar 13 16:41:03 storm dbus-daemon[644]: [system] Successfully activated service 'org.freedesktop.fwupd'
+Mar 13 16:41:03 storm systemd[1]: Started Firmware update daemon.
+Mar 13 16:41:03 storm systemd[1]: fwupd-refresh.service: Deactivated successfully.
+Mar 13 16:41:03 storm systemd[1]: Finished Refresh fwupd metadata and update motd.
+Mar 13 16:41:30 storm systemd[1]: Starting Ubuntu Advantage Timer for running repeated jobs...
+Mar 13 16:41:31 storm systemd[1]: ua-timer.service: Deactivated successfully.
+Mar 13 16:41:31 storm systemd[1]: Finished Ubuntu Advantage Timer for running repeated jobs.
+Mar 13 17:17:01 storm CRON[14877]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 13 17:56:39 storm snapd[654]: storehelpers.go:769: cannot refresh: snap has no updates available: "core20", "lxd", "snapd"
+Mar 13 17:56:39 storm snapd[654]: autorefresh.go:551: auto-refresh: all snaps are up-to-date
+Mar 13 18:16:39 storm snapd[654]: storehelpers.go:769: cannot refresh: snap has no updates available: "core20", "lxd", "snapd"
+Mar 13 18:16:39 storm snapd[654]: autorefresh.go:551: auto-refresh: all snaps are up-to-date
+Mar 13 18:17:01 storm CRON[14893]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 13 18:41:04 storm systemd[1]: fwupd.service: Deactivated successfully.
+Mar 13 19:17:01 storm CRON[14916]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 13 19:52:05 storm systemd[1]: Starting Message of the Day...
+Mar 13 19:52:06 storm 50-motd-news[14954]:  * Strictly confined Kubernetes makes edge and IoT secure. Learn how MicroK8s
+Mar 13 19:52:06 storm 50-motd-news[14954]:    just raised the bar for easy, resilient and secure K8s cluster deployment.
+Mar 13 19:52:06 storm 50-motd-news[14954]:    https://ubuntu.com/engage/secure-kubernetes-at-the-edge
+Mar 13 19:52:06 storm systemd[1]: motd-news.service: Deactivated successfully.
+Mar 13 19:52:06 storm systemd[1]: Finished Message of the Day.
+Mar 13 20:17:01 storm CRON[14970]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 13 21:17:01 storm CRON[14989]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 13 22:17:01 storm CRON[15005]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 13 22:57:25 storm systemd[1]: Created slice User Slice of UID 1000.
+Mar 13 22:57:25 storm systemd[1]: Starting User Runtime Directory /run/user/1000...
+Mar 13 22:57:25 storm systemd[1]: Finished User Runtime Directory /run/user/1000.
+Mar 13 22:57:25 storm systemd[1]: Starting User Manager for UID 1000...
+Mar 13 22:57:25 storm systemd[15022]: Queued start job for default target Main User Target.
+Mar 13 22:57:25 storm systemd[15022]: Created slice User Application Slice.
+Mar 13 22:57:25 storm systemd[15022]: Reached target Paths.
+Mar 13 22:57:25 storm systemd[15022]: Reached target Timers.
+Mar 13 22:57:25 storm systemd[15022]: Starting D-Bus User Message Bus Socket...
+Mar 13 22:57:25 storm systemd[15022]: Listening on GnuPG network certificate management daemon.
+Mar 13 22:57:25 storm systemd[15022]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Mar 13 22:57:25 storm systemd[15022]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Mar 13 22:57:25 storm systemd[15022]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Mar 13 22:57:25 storm systemd[15022]: Listening on GnuPG cryptographic agent and passphrase cache.
+Mar 13 22:57:25 storm systemd[15022]: Listening on debconf communication socket.
+Mar 13 22:57:25 storm systemd[15022]: Listening on REST API socket for snapd user session agent.
+Mar 13 22:57:25 storm systemd[15022]: Listening on D-Bus User Message Bus Socket.
+Mar 13 22:57:25 storm systemd[15022]: Reached target Sockets.
+Mar 13 22:57:25 storm systemd[15022]: Reached target Basic System.
+Mar 13 22:57:25 storm systemd[1]: Started User Manager for UID 1000.
+Mar 13 22:57:25 storm systemd[1]: Started Session 28 of User jphip.
+Mar 13 22:57:25 storm systemd[15022]: Reached target Main User Target.
+Mar 13 22:57:25 storm systemd[15022]: Startup finished in 127ms.
+Mar 13 23:06:09 storm systemd[1]: Starting Ubuntu Advantage Timer for running repeated jobs...
+Mar 13 23:06:09 storm systemd[1]: ua-timer.service: Deactivated successfully.
+Mar 13 23:06:09 storm systemd[1]: Finished Ubuntu Advantage Timer for running repeated jobs.
+Mar 13 23:17:01 storm CRON[16109]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 14 00:00:05 storm systemd[1]: Starting Daily dpkg database backup service...
+Mar 14 00:00:05 storm systemd[1]: Starting Rotate log files...
+Mar 14 00:00:05 storm systemd[1]: logrotate.service: Deactivated successfully.
+Mar 14 00:00:05 storm systemd[1]: Finished Rotate log files.
+Mar 14 00:00:05 storm systemd[1]: dpkg-db-backup.service: Deactivated successfully.
+Mar 14 00:00:05 storm systemd[1]: Finished Daily dpkg database backup service.
+Mar 14 00:17:01 storm CRON[17053]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 14 01:05:30 storm systemd[1]: Starting Daily apt download activities...
+Mar 14 01:05:44 storm systemd[1]: apt-daily.service: Deactivated successfully.
+Mar 14 01:05:44 storm systemd[1]: Finished Daily apt download activities.
+Mar 14 01:05:44 storm systemd[1]: apt-daily.service: Consumed 11.159s CPU time.
+Mar 14 01:17:01 storm CRON[17427]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 14 02:17:01 storm CRON[17442]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 14 03:10:01 storm CRON[17458]: (root) CMD (test -e /run/systemd/system || SERVICE_MODE=1 /sbin/e2scrub_all -A -r)
+Mar 14 03:17:01 storm CRON[17464]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 14 03:26:38 storm systemd[1]: Starting Download data for packages that failed at package install time...
+Mar 14 03:26:39 storm systemd[1]: update-notifier-download.service: Deactivated successfully.
+Mar 14 03:26:39 storm systemd[1]: Finished Download data for packages that failed at package install time.
+Mar 14 03:36:38 storm systemd[1]: Starting Cleanup of Temporary Directories...
+Mar 14 03:36:38 storm systemd[1]: systemd-tmpfiles-clean.service: Deactivated successfully.
+Mar 14 03:36:38 storm systemd[1]: Finished Cleanup of Temporary Directories.
+Mar 14 04:17:01 storm CRON[17492]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 14 04:51:39 storm snapd[654]: storehelpers.go:769: cannot refresh: snap has no updates available: "core20", "lxd", "snapd"
+Mar 14 04:51:39 storm snapd[654]: autorefresh.go:551: auto-refresh: all snaps are up-to-date
+Mar 14 05:17:01 storm CRON[17514]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 14 05:43:05 storm systemd[1]: Starting Refresh fwupd metadata and update motd...
+Mar 14 05:43:05 storm dbus-daemon[644]: [system] Activating via systemd: service name='org.freedesktop.fwupd' unit='fwupd.service' requested by ':1.60' (uid=113 pid=17521 comm="/usr/bin/fwupdmgr refresh " label="unconfined")
+Mar 14 05:43:05 storm systemd[1]: Starting Firmware update daemon...
+Mar 14 05:43:06 storm dbus-daemon[644]: [system] Successfully activated service 'org.freedesktop.fwupd'
+Mar 14 05:43:06 storm systemd[1]: Started Firmware update daemon.
+Mar 14 05:43:06 storm fwupdmgr[17521]: Updating lvfs
+Mar 14 05:43:06 storm fwupdmgr[17521]: Downloading…: 0%
+Mar 14 05:43:06 storm fwupdmgr[17521]: Downloading…: 61%
+Mar 14 05:43:06 storm fwupdmgr[17521]: Downloading…: 100%
+Mar 14 05:43:06 storm fwupdmgr[17521]: Idle…: 100%
+Mar 14 05:43:06 storm fwupdmgr[17521]: Downloading…: 100%
+Mar 14 05:43:06 storm fwupdmgr[17521]: Downloading…: 0%
+Mar 14 05:43:06 storm fwupdmgr[17521]: Downloading…: 1%
+Mar 14 05:43:06 storm fwupdmgr[17521]: Downloading…: 3%
+Mar 14 05:43:06 storm fwupdmgr[17521]: Downloading…: 5%
+Mar 14 05:43:06 storm fwupdmgr[17521]: Downloading…: 7%
+Mar 14 05:43:06 storm fwupdmgr[17521]: Downloading…: 9%
+Mar 14 05:43:06 storm fwupdmgr[17521]: Downloading…: 11%
+Mar 14 05:43:06 storm fwupdmgr[17521]: Downloading…: 13%
+Mar 14 05:43:06 storm fwupdmgr[17521]: Downloading…: 15%
+Mar 14 05:43:06 storm fwupdmgr[17521]: Downloading…: 17%
+Mar 14 05:43:06 storm fwupdmgr[17521]: Downloading…: 19%
+Mar 14 05:43:06 storm fwupdmgr[17521]: Downloading…: 21%
+Mar 14 05:43:06 storm fwupdmgr[17521]: Downloading…: 23%
+Mar 14 05:43:06 storm fwupdmgr[17521]: Downloading…: 25%
+Mar 14 05:43:06 storm fwupdmgr[17521]: Downloading…: 27%
+Mar 14 05:43:06 storm fwupdmgr[17521]: Downloading…: 29%
+Mar 14 05:43:06 storm fwupdmgr[17521]: Downloading…: 31%
+Mar 14 05:43:06 storm fwupdmgr[17521]: Downloading…: 33%
+Mar 14 05:43:06 storm fwupdmgr[17521]: Downloading…: 35%
+Mar 14 05:43:06 storm fwupdmgr[17521]: Downloading…: 37%
+Mar 14 05:43:06 storm fwupdmgr[17521]: Downloading…: 43%
+Mar 14 05:43:06 storm fwupdmgr[17521]: Downloading…: 45%
+Mar 14 05:43:06 storm fwupdmgr[17521]: Downloading…: 53%
+Mar 14 05:43:06 storm fwupdmgr[17521]: Downloading…: 55%
+Mar 14 05:43:06 storm fwupdmgr[17521]: Downloading…: 65%
+Mar 14 05:43:06 storm fwupdmgr[17521]: Downloading…: 83%
+Mar 14 05:43:06 storm fwupdmgr[17521]: Downloading…: 100%
+Mar 14 05:43:06 storm fwupdmgr[17521]: Idle…: 100%
+Mar 14 05:43:07 storm fwupdmgr[17521]: Successfully downloaded new metadata: 0 local devices supported
+Mar 14 05:43:07 storm systemd[1]: fwupd-refresh.service: Deactivated successfully.
+Mar 14 05:43:07 storm systemd[1]: Finished Refresh fwupd metadata and update motd.
+Mar 14 05:44:30 storm systemd[1]: Starting Ubuntu Advantage Timer for running repeated jobs...
+Mar 14 05:44:31 storm systemd[1]: ua-timer.service: Deactivated successfully.
+Mar 14 05:44:31 storm systemd[1]: Finished Ubuntu Advantage Timer for running repeated jobs.
+Mar 14 06:17:01 storm CRON[17577]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 14 06:23:30 storm systemd[1]: Starting Daily apt upgrade and clean activities...
+Mar 14 06:23:38 storm dbus-daemon[644]: Unknown group "power" in message bus configuration file
+Mar 14 06:23:38 storm dbus-daemon[644]: [system] Reloaded configuration
+Mar 14 06:23:38 storm dbus-daemon[644]: Unknown group "power" in message bus configuration file
+Mar 14 06:23:38 storm dbus-daemon[644]: [system] Reloaded configuration
+Mar 14 06:23:38 storm dbus-daemon[644]: Unknown group "power" in message bus configuration file
+Mar 14 06:23:38 storm dbus-daemon[644]: [system] Reloaded configuration
+Mar 14 06:23:39 storm dbus-daemon[644]: Unknown group "power" in message bus configuration file
+Mar 14 06:23:39 storm dbus-daemon[644]: [system] Reloaded configuration
+Mar 14 06:23:39 storm dbus-daemon[644]: Unknown group "power" in message bus configuration file
+Mar 14 06:23:39 storm dbus-daemon[644]: [system] Reloaded configuration
+Mar 14 06:23:39 storm dbus-daemon[644]: Unknown group "power" in message bus configuration file
+Mar 14 06:23:39 storm dbus-daemon[644]: [system] Reloaded configuration
+Mar 14 06:23:39 storm dbus-daemon[644]: Unknown group "power" in message bus configuration file
+Mar 14 06:23:39 storm dbus-daemon[644]: [system] Reloaded configuration
+Mar 14 06:23:39 storm dbus-daemon[644]: Unknown group "power" in message bus configuration file
+Mar 14 06:23:39 storm dbus-daemon[644]: [system] Reloaded configuration
+Mar 14 06:23:39 storm dbus-daemon[644]: Unknown group "power" in message bus configuration file
+Mar 14 06:23:39 storm dbus-daemon[644]: [system] Reloaded configuration
+Mar 14 06:23:39 storm dbus-daemon[644]: Unknown group "power" in message bus configuration file
+Mar 14 06:23:39 storm dbus-daemon[644]: [system] Reloaded configuration
+Mar 14 06:23:39 storm dbus-daemon[644]: Unknown group "power" in message bus configuration file
+Mar 14 06:23:39 storm dbus-daemon[644]: [system] Reloaded configuration
+Mar 14 06:23:39 storm dbus-daemon[644]: Unknown group "power" in message bus configuration file
+Mar 14 06:23:39 storm dbus-daemon[644]: [system] Reloaded configuration
+Mar 14 06:23:39 storm dbus-daemon[644]: Unknown group "power" in message bus configuration file
+Mar 14 06:23:39 storm dbus-daemon[644]: [system] Reloaded configuration
+Mar 14 06:23:39 storm dbus-daemon[644]: Unknown group "power" in message bus configuration file
+Mar 14 06:23:39 storm dbus-daemon[644]: [system] Reloaded configuration
+Mar 14 06:23:39 storm dbus-daemon[644]: Unknown group "power" in message bus configuration file
+Mar 14 06:23:39 storm dbus-daemon[644]: [system] Reloaded configuration
+Mar 14 06:23:40 storm systemd[1]: Reexecuting.
+Mar 14 06:23:40 storm kernel: [97335.138660] systemd[1]: systemd 249.11-0ubuntu3.7 running in system mode (+PAM +AUDIT +SELINUX +APPARMOR +IMA +SMACK +SECCOMP +GCRYPT +GNUTLS +OPENSSL +ACL +BLKID +CURL +ELFUTILS +FIDO2 +IDN2 -IDN +IPTC +KMOD +LIBCRYPTSETUP +LIBFDISK +PCRE2 -PWQUALITY -P11KIT -QRENCODE +BZIP2 +LZ4 +XZ +ZLIB +ZSTD -XKBCOMMON +UTMP +SYSVINIT default-hierarchy=unified)
+Mar 14 06:23:40 storm kernel: [97335.138693] systemd[1]: Detected virtualization oracle.
+Mar 14 06:23:40 storm kernel: [97335.138698] systemd[1]: Detected architecture x86-64.
+Mar 14 06:23:41 storm systemd[1]: Condition check resulted in OpenVSwitch configuration for cleanup being skipped.
+Mar 14 06:23:41 storm systemd[1]: systemd-networkd-wait-online.service: Deactivated successfully.
+Mar 14 06:23:41 storm systemd[1]: Stopped Wait for Network to be Configured.
+Mar 14 06:23:41 storm systemd[1]: Stopping Wait for Network to be Configured...
+Mar 14 06:23:41 storm systemd[1]: Stopping Network Configuration...
+Mar 14 06:23:41 storm systemd-networkd[628]: enp0s3: DHCPv6 lease lost
+Mar 14 06:23:41 storm systemd[1]: systemd-networkd.service: Deactivated successfully.
+Mar 14 06:23:41 storm systemd[1]: Stopped Network Configuration.
+Mar 14 06:23:41 storm systemd[1]: systemd-networkd.service: Consumed 18.662s CPU time.
+Mar 14 06:23:41 storm systemd[1]: Starting Network Configuration...
+Mar 14 06:23:41 storm systemd-networkd[17857]: enp0s3: Link UP
+Mar 14 06:23:41 storm systemd-networkd[17857]: enp0s3: Gained carrier
+Mar 14 06:23:41 storm systemd-networkd[17857]: lo: Link UP
+Mar 14 06:23:41 storm systemd-networkd[17857]: lo: Gained carrier
+Mar 14 06:23:41 storm systemd-networkd[17857]: enp0s3: Gained IPv6LL
+Mar 14 06:23:41 storm systemd-networkd[17857]: Enumeration completed
+Mar 14 06:23:41 storm systemd[1]: Started Network Configuration.
+Mar 14 06:23:41 storm systemd[1]: Starting Wait for Network to be Configured...
+Mar 14 06:23:41 storm systemd[1]: Stopping Network Name Resolution...
+Mar 14 06:23:41 storm systemd-networkd[17857]: enp0s3: DHCPv4 address 10.0.0.165/24 via 10.0.0.1
+Mar 14 06:23:41 storm dbus-daemon[644]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.65' (uid=101 pid=17857 comm="/lib/systemd/systemd-networkd " label="unconfined")
+Mar 14 06:23:41 storm systemd[1]: Starting Hostname Service...
+Mar 14 06:23:41 storm systemd-networkd-wait-online[17859]: managing: enp0s3
+Mar 14 06:23:41 storm systemd[1]: Finished Wait for Network to be Configured.
+Mar 14 06:23:41 storm systemd[1]: systemd-resolved.service: Deactivated successfully.
+Mar 14 06:23:41 storm systemd[1]: Stopped Network Name Resolution.
+Mar 14 06:23:41 storm systemd[1]: systemd-resolved.service: Consumed 18.669s CPU time.
+Mar 14 06:23:41 storm systemd[1]: Starting Network Name Resolution...
+Mar 14 06:23:41 storm dbus-daemon[644]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Mar 14 06:23:41 storm systemd[1]: Started Hostname Service.
+Mar 14 06:23:41 storm systemd-hostnamed[17861]: Hostname set to <storm> (static)
+Mar 14 06:23:41 storm systemd-resolved[17864]: Positive Trust Anchors:
+Mar 14 06:23:41 storm systemd-resolved[17864]: . IN DS 20326 8 2 e06d44b80b8f1d39a95c0b0d7c65d08458e880409bbc683457104237c7f8ec8d
+Mar 14 06:23:41 storm systemd-resolved[17864]: Negative trust anchors: home.arpa 10.in-addr.arpa 16.172.in-addr.arpa 17.172.in-addr.arpa 18.172.in-addr.arpa 19.172.in-addr.arpa 20.172.in-addr.arpa 21.172.in-addr.arpa 22.172.in-addr.arpa 23.172.in-addr.arpa 24.172.in-addr.arpa 25.172.in-addr.arpa 26.172.in-addr.arpa 27.172.in-addr.arpa 28.172.in-addr.arpa 29.172.in-addr.arpa 30.172.in-addr.arpa 31.172.in-addr.arpa 168.192.in-addr.arpa d.f.ip6.arpa corp home internal intranet lan local private test
+Mar 14 06:23:41 storm systemd-resolved[17864]: Using system hostname 'storm'.
+Mar 14 06:23:41 storm systemd[1]: Started Network Name Resolution.
+Mar 14 06:23:41 storm kernel: [97336.111004] systemd[1]: Stopping Journal Service...
+Mar 14 06:23:41 storm kernel: [97336.111175] systemd-journald[364]: Received SIGTERM from PID 1 (systemd).
+Mar 14 06:23:41 storm kernel: [97336.135088] systemd[1]: systemd-journald.service: Deactivated successfully.
+Mar 14 06:23:41 storm kernel: [97336.135356] systemd[1]: Stopped Journal Service.
+Mar 14 06:23:41 storm kernel: [97336.137644] systemd[1]: Starting Journal Service...
+Mar 14 06:23:41 storm kernel: [97336.160484] systemd[1]: Started Journal Service.
+Mar 14 06:23:41 storm systemd[1]: Reloading.
+Mar 14 06:23:41 storm systemd-networkd[17857]: enp0s3: DHCPv6 address 2601:600:c700:d220::2f4f/128 (valid for 3d 1h 32min 56s, preferred for 3d 1h 32min 56s)
+Mar 14 06:23:42 storm systemd[1]: Stopping Network Time Synchronization...
+Mar 14 06:23:42 storm systemd[1]: systemd-timesyncd.service: Deactivated successfully.
+Mar 14 06:23:42 storm systemd[1]: Stopped Network Time Synchronization.
+Mar 14 06:23:42 storm systemd[1]: Starting Network Time Synchronization...
+Mar 14 06:23:42 storm systemd[1]: Started Network Time Synchronization.
+Mar 14 06:23:42 storm systemd-timesyncd[17932]: Initial synchronization to time server 91.189.94.4:123 (ntp.ubuntu.com).
+Mar 14 06:23:42 storm systemd[1]: Reloading.
+Mar 14 06:23:43 storm systemd[1]: Starting Message of the Day...
+Mar 14 06:23:43 storm systemd[1]: Starting Check to see whether there is a new version of Ubuntu available...
+Mar 14 06:23:43 storm systemd[1]: update-notifier-motd.service: Deactivated successfully.
+Mar 14 06:23:43 storm systemd[1]: Finished Check to see whether there is a new version of Ubuntu available.
+Mar 14 06:23:43 storm systemd[1]: Stopping Rule-based Manager for Device Events and Files...
+Mar 14 06:23:43 storm systemd[1]: systemd-udevd.service: Deactivated successfully.
+Mar 14 06:23:43 storm systemd[1]: Stopped Rule-based Manager for Device Events and Files.
+Mar 14 06:23:43 storm systemd[1]: systemd-udevd.service: Consumed 1.104s CPU time.
+Mar 14 06:23:43 storm systemd[1]: Starting Rule-based Manager for Device Events and Files...
+Mar 14 06:23:43 storm systemd[1]: Started Rule-based Manager for Device Events and Files.
+Mar 14 06:23:43 storm systemd[1]: Reloading.
+Mar 14 06:23:44 storm systemd[1]: Starting Daily man-db regeneration...
+Mar 14 06:23:44 storm dbus-daemon[644]: Unknown group "power" in message bus configuration file
+Mar 14 06:23:44 storm dbus-daemon[644]: [system] Reloaded configuration
+Mar 14 06:23:44 storm systemd[1]: man-db.service: Deactivated successfully.
+Mar 14 06:23:44 storm systemd[1]: Finished Daily man-db regeneration.
+Mar 14 06:23:49 storm 50-motd-news[20675]:  * Strictly confined Kubernetes makes edge and IoT secure. Learn how MicroK8s
+Mar 14 06:23:49 storm 50-motd-news[20675]:    just raised the bar for easy, resilient and secure K8s cluster deployment.
+Mar 14 06:23:49 storm 50-motd-news[20675]:    https://ubuntu.com/engage/secure-kubernetes-at-the-edge
+Mar 14 06:23:49 storm systemd[1]: motd-news.service: Deactivated successfully.
+Mar 14 06:23:49 storm systemd[1]: Finished Message of the Day.
+Mar 14 06:24:11 storm systemd[1]: systemd-hostnamed.service: Deactivated successfully.
+Mar 14 06:25:01 storm CRON[29174]: (root) CMD (test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily ))
+Mar 14 06:25:34 storm systemd[1]: apt-daily-upgrade.service: Deactivated successfully.
+Mar 14 06:25:34 storm systemd[1]: Finished Daily apt upgrade and clean activities.
+Mar 14 06:25:34 storm systemd[1]: apt-daily-upgrade.service: Consumed 1min 11.011s CPU time.
+Mar 14 07:17:01 storm CRON[39858]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 14 07:43:08 storm systemd[1]: fwupd.service: Deactivated successfully.
+Mar 14 07:43:08 storm systemd[1]: fwupd.service: Consumed 1.498s CPU time.
+Mar 14 08:01:40 storm snapd[654]: storehelpers.go:769: cannot refresh: snap has no updates available: "core20", "lxd", "snapd"
+Mar 14 08:01:40 storm snapd[654]: autorefresh.go:551: auto-refresh: all snaps are up-to-date
+Mar 14 08:17:01 storm CRON[39881]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 14 09:17:01 storm CRON[39902]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 14 10:17:01 storm CRON[39917]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 14 11:17:01 storm CRON[39934]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 14 12:01:30 storm systemd[1]: Starting Ubuntu Advantage Timer for running repeated jobs...
+Mar 14 12:01:31 storm systemd[1]: ua-timer.service: Deactivated successfully.
+Mar 14 12:01:31 storm systemd[1]: Finished Ubuntu Advantage Timer for running repeated jobs.
+Mar 14 12:17:02 storm CRON[39957]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 14 13:17:01 storm CRON[39971]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 14 14:17:01 storm CRON[39989]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 14 15:06:39 storm snapd[654]: storehelpers.go:769: cannot refresh: snap has no updates available: "core20", "lxd", "snapd"
+Mar 14 15:06:39 storm snapd[654]: autorefresh.go:551: auto-refresh: all snaps are up-to-date
+Mar 14 15:12:05 storm systemd[1]: Starting Message of the Day...
+Mar 14 15:12:27 storm 50-motd-news[40034]:  * Strictly confined Kubernetes makes edge and IoT secure. Learn how MicroK8s
+Mar 14 15:12:27 storm 50-motd-news[40034]:    just raised the bar for easy, resilient and secure K8s cluster deployment.
+Mar 14 15:12:27 storm 50-motd-news[40034]:    https://ubuntu.com/engage/secure-kubernetes-at-the-edge
+Mar 14 15:12:27 storm systemd[1]: motd-news.service: Deactivated successfully.
+Mar 14 15:12:27 storm systemd[1]: Finished Message of the Day.
+Mar 14 15:17:01 storm CRON[40043]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 14 16:17:01 storm CRON[40061]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 14 16:19:30 storm systemd[1]: Starting Daily apt download activities...
+Mar 14 16:19:31 storm systemd[1]: apt-daily.service: Deactivated successfully.
+Mar 14 16:19:31 storm systemd[1]: Finished Daily apt download activities.
+Mar 14 17:17:01 storm CRON[40135]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 14 17:20:05 storm systemd[1]: Starting Refresh fwupd metadata and update motd...
+Mar 14 17:20:05 storm dbus-daemon[644]: [system] Activating via systemd: service name='org.freedesktop.fwupd' unit='fwupd.service' requested by ':1.85' (uid=113 pid=40137 comm="/usr/bin/fwupdmgr refresh " label="unconfined")
+Mar 14 17:20:05 storm systemd[1]: Starting Firmware update daemon...
+Mar 14 17:20:06 storm dbus-daemon[644]: [system] Successfully activated service 'org.freedesktop.fwupd'
+Mar 14 17:20:06 storm systemd[1]: Started Firmware update daemon.
+Mar 14 17:20:06 storm systemd[1]: fwupd-refresh.service: Deactivated successfully.
+Mar 14 17:20:06 storm systemd[1]: Finished Refresh fwupd metadata and update motd.
+Mar 14 18:17:01 storm CRON[40164]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 14 18:18:20 storm systemd[1]: Starting Ubuntu Advantage Timer for running repeated jobs...
+Mar 14 18:18:21 storm systemd[1]: ua-timer.service: Deactivated successfully.
+Mar 14 18:18:21 storm systemd[1]: Finished Ubuntu Advantage Timer for running repeated jobs.
+Mar 14 19:17:01 storm CRON[40188]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 14 19:20:06 storm systemd[1]: fwupd.service: Deactivated successfully.
+Mar 14 20:17:01 storm CRON[40207]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 14 20:46:39 storm snapd[654]: storehelpers.go:769: cannot refresh: snap has no updates available: "core20", "lxd", "snapd"
+Mar 14 20:46:39 storm snapd[654]: autorefresh.go:551: auto-refresh: all snaps are up-to-date
+Mar 14 21:17:01 storm CRON[40225]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 14 22:17:01 storm CRON[40244]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 14 23:17:01 storm CRON[40258]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 14 23:24:12 storm systemd[1]: Started Session 57 of User jphip.
+Mar 14 23:24:52 storm systemd[1]: Started Session 58 of User jphip.
+Mar 15 00:00:05 storm systemd[1]: Starting Daily dpkg database backup service...
+Mar 15 00:00:05 storm systemd[1]: Starting Rotate log files...
+Mar 15 00:00:05 storm systemd[1]: logrotate.service: Deactivated successfully.
+Mar 15 00:00:05 storm systemd[1]: Finished Rotate log files.
+Mar 15 00:00:05 storm systemd[1]: dpkg-db-backup.service: Deactivated successfully.
+Mar 15 00:00:05 storm systemd[1]: Finished Daily dpkg database backup service.
