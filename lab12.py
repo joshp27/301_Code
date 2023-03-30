@@ -11,7 +11,7 @@ import requests
 #main
 import requests
 # Prompt the user to type a string input as the variable for your destination URL.
-user = input("Please enter a URL: ")
+user = input("Please enter a URL: ") or "https://www.google.com"
 # Prompt the user to select a HTTP Method of the following options:
 choices = {
     "1": "GET",
@@ -22,7 +22,7 @@ choices = {
     "6": "TRACE",
     "7": "OPTIONS"
 }
-method_choice = input("Select one of the following 1) GET Request 2) POST 3) PATCH 4) DELETE 5) HEAD 6) TRACE 7) OPTIONS")
+method_choice = input("Select one of the following: \n1) GET Request \n2) POST \n3) PATCH \n4) DELETE \n5) HEAD \n6) TRACE \n7) OPTIONS\n")
 method = choices.get(method_choice)
 # Print to the screen the entire request your script is about to send. Ask the user to confirm before proceeding.
 print(f"The following {method} request is about to be sent to {user}:\n")
